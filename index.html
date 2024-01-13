@@ -495,19 +495,15 @@ body{
   "https://files.catbox.moe/ljkzkx.mp3", 
   "https://files.catbox.moe/whv98j.mp3",
   "https://files.catbox.moe/ckvwxr.mp3",
-  "https://files.catbox.moe/u0nljf.mp3"
+  "https://files.catbox.moe/u0nljf.mp3",
+  "https://files.catbox.moe/v3pisc.mp3"
 ];
 //Random music
 let index = Math.floor(Math.random() * ThanhDieu_List.length);
 const audio = new Audio(ThanhDieu_List[index]);
 function ThanhDieuSound__() {
-  int i = 0;
+    
   audio.play();
-  i+=1;
-  if i == 4 {
-  audio = new Audio("https://files.catbox.moe/v3pisc.mp3")
-  
-  }
 }
 document.addEventListener("click", ThanhDieuSound__);
 audio.addEventListener("ended", function() {
