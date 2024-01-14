@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" style="overflow-y:scroll">
 <link rel="icon" type="image/x-icon" href="https://i.imgur.com/NWskJj3.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-container">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width">
@@ -152,9 +155,12 @@
 </head>
 
 <body onkeydown="return false"> onLoad=";">
-<div class="w3-panel w3-yellow">
+<div class="w3-panel w3-yellow w3-display-container">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-large w3-display-topright">&times;</span>
   <h3>Warning!</h3>
   <p>Yellow often indicates a warning that might need attention.</p>
+</div>
 </div> 
     <div id="__next">
         <div style="display:contents">
