@@ -579,21 +579,68 @@ body{
         <div class="row align-items-center flex-row-reverse">
           <div class="col-md-12 col-sm-12 text-center" style="display: flex; justify-content: center;">
             <div class="infos"> 
-              Copyright All Rights Reserved © 2024 - <a style="color: #705ec8;" href="https://mrlamgc.com">Lam, himself XD</a>
+              Copyright All Rights Reserved © 2024 - <a style="color: #705ec8;" href="https://mrlam.us.yo">Lam, himself :)</a>
             </div>
           </div>
         </div>
       </div>
     </footer>    
     <br>
+    <style>
+/* Modern audio player styles */
+#audioContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#audioPlayer {
+  width: 300px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#audioPlayer audio {
+  width: 100%;
+  display: block;
+}
+
+#audioPlayer audio::-webkit-media-controls-panel {
+  background-color: transparent;
+  color: #333;
+}
+
+#audioPlayer audio::-webkit-media-controls-play-button {
+  background-color: #333;
+  color: #fff;
+}
+
+#audioPlayer audio::-webkit-media-controls-volume-slider {
+  background-color: #333;
+}
+
+#audioPlayer audio::-webkit-media-controls-current-time-display,
+#audioPlayer audio::-webkit-media-controls-time-remaining-display {
+  color: #333;
+}
+</style>
+</head>
+<body>
+<div id="audioContainer">
+  <div id="audioPlayer">
     <audio id="backgroundMusic" controls autoplay loop>
-  <source src="https://stream.zeno.fm/aphjprpoohptv" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+      <source src="your-audio-stream-url" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
 
 <script>
 // Replace 'your-audio-stream-url' with the actual URL of your live audio stream
-document.getElementById('backgroundMusic').src = 'https://stream.zeno.fm/aphjprpoohptv';
+document.getElementById('backgroundMusic').src = 'your-audio-stream-url';
 </script>
 </div>
 </body>
