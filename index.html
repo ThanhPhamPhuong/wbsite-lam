@@ -267,7 +267,7 @@
         <div class="container">
             <div class="WTB_0571" style="border-color: rgb(255, 255, 255); box-shadow: 0 0 10px rgb(133, 81, 255);">
                 <span style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;">
-                    <img alt="" fallback="/Banner.svg" src="https://i.imgur.com/k0erWSg.png" decoding="async" data-nimg="fill" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;">
+                    <img alt="" fallback="/Banner.svg" src="https://i.imgur.com/9eisfyP.png" decoding="async" data-nimg="fill" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;">
                     <noscript></noscript>
                 </span>
             </div>
@@ -500,7 +500,7 @@ body{
                                                     </svg>Nguyen Lam
                                                 </div>
                                                 <div class="d-flex">
-                                                    <a target="_blank" href="https://www.facebook.com/DangVietHai.Info/" class="gOuahDzc btn btn-dark">
+                                                    <a target="_blank" href="https://www.facebook.com/profile.php?id=61558142708891" class="gOuahDzc btn btn-dark">
                                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="external-link-alt" class="svg-inline--fa fa-external-link-alt fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                                             <path fill="currentColor" d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path>
                                                         </svg>
@@ -518,7 +518,7 @@ body{
                                                     </svg>Nguyen Lam
                                                 </div>
                                                 <div class="d-flex">
-                                                    <a target="_blank" href="https://www.facebook.com/DangVietHai.Info/" class="gOuahDzc btn btn-dark">
+                                                    <a target="_blank" href="https://www.facebook.com/profile.php?id=61558142708891" class="gOuahDzc btn btn-dark">
                                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="external-link-alt" class="svg-inline--fa fa-external-link-alt fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                                             <path fill="currentColor" d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path>
                                                         </svg>
@@ -586,32 +586,16 @@ body{
       </div>
     </footer>    
     <br>
-    <script>
-     function __ThanhDieu() {
-      ThanhDieuSound__();
-     }
-     const ThanhDieu_List = [
-  "https://files.catbox.moe/ljkzkx.mp3", 
-  "https://files.catbox.moe/whv98j.mp3",
-  "https://files.catbox.moe/ckvwxr.mp3",
-  "https://files.catbox.moe/u0nljf.mp3",
-  "https://files.catbox.moe/jmgyld.mp3"
-];
-//Random music
-let index = Math.floor(Math.random() * ThanhDieu_List.length);
-const audio = new Audio(ThanhDieu_List[index]);
-function ThanhDieuSound__() {
-    
-  audio.play();
-}
-document.addEventListener("click", ThanhDieuSound__);
-audio.addEventListener("ended", function() {
-  index = (index + 1) % ThanhDieu_List.length;
-  audio.src = ThanhDieu_List[index];
-  audio.play();
-});
-    </script>
-  </div>
+    <audio id="backgroundMusic" controls autoplay loop>
+  <source src="https://stream.zeno.fm/aphjprpoohptv" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+// Replace 'your-audio-stream-url' with the actual URL of your live audio stream
+document.getElementById('backgroundMusic').src = 'https://stream.zeno.fm/aphjprpoohptv';
+</script>
+</div>
 </body>
 </html>
 
