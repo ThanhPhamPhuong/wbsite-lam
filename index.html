@@ -586,21 +586,28 @@ body{
       </div>
     </footer>    
     <br>
-    <style>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Streaming Background Music</title>
+<style>
 /* Modern audio player styles */
 #audioContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
-
-#audioPlayer {
-  width: 300px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-color: #f2f2f2;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 9999; /* Ensures the audio controls appear above other content */
+}
+
+#audioPlayer {
+  width: 100%;
 }
 
 #audioPlayer audio {
@@ -632,7 +639,7 @@ body{
 <div id="audioContainer">
   <div id="audioPlayer">
     <audio id="backgroundMusic" controls autoplay loop>
-      <source src="your-audio-stream-url" type="audio/mpeg">
+      <source src="https://stream.zeno.fm/aphjprpoohptv" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
   </div>
@@ -640,8 +647,9 @@ body{
 
 <script>
 // Replace 'your-audio-stream-url' with the actual URL of your live audio stream
-document.getElementById('backgroundMusic').src = 'your-audio-stream-url';
+document.getElementById('backgroundMusic').src = 'https://stream.zeno.fm/aphjprpoohptv';
 </script>
+
 </div>
 </body>
 </html>
