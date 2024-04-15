@@ -148,3 +148,99 @@
     left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s
   }
 </style>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+
+    .search-container {
+        position: relative;
+    }
+
+    .search-box {
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #333;
+        border-radius: 20px;
+        width: 300px;
+    }
+
+    .circle {
+        position: absolute;
+        background-color: black;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+    }
+</style>
+</head>
+<body>
+
+<div class="search-container">
+    <input type="text" class="search-box" placeholder="Search...">
+</div>
+
+<script>
+    const searchBox = document.querySelector('.search-box');
+    const circles = [];
+
+    // Function to create a circle
+    function createCircle() {
+        const circle = document.createElement('div');
+        circle.classList.add('circle');
+        document.body.appendChild(circle);
+        circles.push(circle);
+        moveCircle(circle);
+    }
+
+    // Function to move a circle
+    function moveCircle(circle) {
+        const x = Math.random() * window.innerWidth;
+        const y = Math.random() * window.innerHeight;
+        const speed = Math.random() * 10 + 5;
+        const directionX = Math.random() > 0.5 ? 1 : -1;
+        const directionY = Math.random() > 0.5 ? 1 : -1;
+
+        function move() {
+            circle.style.left = `${circle.offsetLeft + speed * directionX}px`;
+            circle.style.top = `${circle.offsetTop + speed * directionY}px`;
+
+            if (circle.offsetLeft < 0 || circle.offsetLeft > window.innerWidth ||
+                circle.offsetTop < 0 || circle.offsetTop > window.innerHeight) {
+                circle.remove();
+                const index = circles.indexOf(circle);
+                if (index > -1) {
+                    circles.splice(index, 1);
+                }
+                return;
+            }
+
+            requestAnimationFrame(move);
+        }
+
+        move();
+    }
+
+    // Event listener for input
+    searchBox.addEventListener('input', () => {
+        // Clear existing circles
+        circles.forEach(circle => circle.remove());
+        circles.length = 0;
+
+        // Create new circles based on input length
+        const inputLength = searchBox.value.length;
+        for (let i = 0; i < inputLength; i++) {
+            createCircle();
+        }
+    });
+</script>
+
+</body>
+</html>
