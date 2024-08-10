@@ -1,0 +1,314 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  width: 1437px;
+  height: 1432px;
+  position: relative;
+}
+
+.frame .home-button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: 40px;
+  left: 830px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .contact-button {
+  position: absolute;
+  top: 40px;
+  left: 1129px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .projects-button {
+  top: 40px;
+  left: 961px;
+  color: #00c1ff;
+  font-size: 28px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .projects {
+  position: absolute;
+  width: 1037px;
+  height: 223px;
+  top: 110px;
+  left: 201px;
+}
+
+.frame .overlap-group {
+  position: relative;
+  width: 1033px;
+  height: 223px;
+  background-image: url(./img/image.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.frame .text-wrapper {
+  top: 44px;
+  left: 415px;
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .line {
+  position: absolute;
+  width: 944px;
+  height: 1px;
+  top: 128px;
+  left: 49px;
+  object-fit: cover;
+}
+
+.frame .p {
+  position: absolute;
+  top: 144px;
+  left: 220px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .mrlam-button {
+  position: absolute;
+  top: 45px;
+  left: 201px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #0eb6ff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .search {
+  position: absolute;
+  width: 344px;
+  height: 46px;
+  top: 367px;
+  left: 893px;
+}
+
+.frame .overlap {
+  position: relative;
+  width: 342px;
+  height: 46px;
+  background-color: #868686;
+  border-radius: 10px;
+  border: none;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 0;
+  padding-left: 28px;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  top: 372px;
+  left: 201px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #414141;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .GETMORERAM {
+  position: absolute;
+  width: 1042px;
+  height: 199px;
+  top: 454px;
+  left: 201px;
+}
+
+.frame .overlap-2 {
+  position: relative;
+  width: 1034px;
+  height: 199px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.frame .RAM-button {
+  position: absolute;
+  width: 146px;
+  height: 146px;
+  top: 25px;
+  left: 867px;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  top: 25px;
+  left: 35px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  top: 145px;
+  left: 367px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-5 {
+  position: absolute;
+  top: 145px;
+  left: 653px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .this-app-modifies {
+  position: absolute;
+  top: 72px;
+  left: 35px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .group-button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 230px;
+  height: 39px;
+  top: 137px;
+  left: 35px;
+}
+
+.frame .div-wrapper {
+  position: relative;
+  width: 228px;
+  height: 39px;
+  background-color: #9cc3fa;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.frame .text-wrapper-6 {
+  position: absolute;
+  top: 6px;
+  left: 61px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap-3 {
+  position: absolute;
+  width: 1042px;
+  height: 199px;
+  top: 709px;
+  left: 201px;
+}
+
+.frame .m-pie {
+  position: absolute;
+  width: 1042px;
+  height: 199px;
+  top: 0;
+  left: 0;
+}
+
+.frame .text-wrapper-7 {
+  position: absolute;
+  top: 80px;
+  left: 35px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap-group-wrapper {
+  position: absolute;
+  width: 230px;
+  height: 39px;
+  top: 137px;
+  left: 35px;
+}
+
+.frame .text-wrapper-8 {
+  position: absolute;
+  top: 6px;
+  left: 91px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .image {
+  position: absolute;
+  width: 146px;
+  height: 140px;
+  top: 30px;
+  left: 867px;
+  object-fit: cover;
+}
