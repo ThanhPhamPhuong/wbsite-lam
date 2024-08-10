@@ -1,0 +1,144 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  width: 1437px;
+  height: 886px;
+  position: relative;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 476px;
+  height: 378px;
+  top: 160px;
+  left: 480px;
+}
+
+.frame .polygon {
+  position: absolute;
+  width: 476px;
+  height: 283px;
+  top: 95px;
+  left: 0;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  top: 200px;
+  left: 138px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  top: 321px;
+  left: 130px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 213px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .home-button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: 40px;
+  left: 824px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .contact-button {
+  top: 40px;
+  left: 1129px;
+  color: #000000;
+  font-size: 28px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .projects-button {
+  position: absolute;
+  top: 40px;
+  left: 961px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .mrlam-button {
+  position: absolute;
+  top: 45px;
+  left: 201px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #0eb6ff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  top: 631px;
+  left: 548px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-5 {
+  top: 633px;
+  left: 818px;
+  color: #00c1ff;
+  font-size: 30px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
