@@ -1,0 +1,67 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  width: 1437px;
+  height: 886px;
+  position: relative;
+}
+
+.frame .mrlam-button {
+  position: absolute;
+  top: 45px;
+  left: 201px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #0eb6ff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  top: 279px;
+  left: 499px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .button {
+  position: absolute;
+  width: 738px;
+  height: 111px;
+  top: 361px;
+  left: 350px;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 738px;
+  height: 111px;
+  top: 503px;
+  left: 350px;
+  background-image: url(./img/button-2.png);
+  background-size: 100% 100%;
+}
+
+.frame .github-logo {
+  position: absolute;
+  width: 83px;
+  height: 83px;
+  top: 14px;
+  left: 27px;
+  object-fit: cover;
+}
