@@ -1,0 +1,304 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  width: 1437px;
+  height: 1885px;
+  position: relative;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 1145px;
+  height: 1253px;
+  top: 136px;
+  left: 145px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  top: 605px;
+  left: 539px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  top: 42px;
+  left: 44px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .ram-button {
+  position: absolute;
+  width: 221px;
+  height: 221px;
+  top: 27px;
+  left: 892px;
+  object-fit: cover;
+}
+
+.frame .this-app-modifies {
+  position: absolute;
+  top: 158px;
+  left: 47px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .get-more-RAM {
+  position: absolute;
+  top: 356px;
+  left: 51px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .span {
+  font-weight: 700;
+}
+
+.frame .text-wrapper-3 {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.frame .line {
+  top: 289px;
+  position: absolute;
+  width: 1069px;
+  height: 1px;
+  left: 44px;
+  object-fit: cover;
+}
+
+.frame .img {
+  top: 588px;
+  position: absolute;
+  width: 1069px;
+  height: 1px;
+  left: 44px;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  top: 1040px;
+  left: 524px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .line-2 {
+  top: 1023px;
+  position: absolute;
+  width: 1069px;
+  height: 1px;
+  left: 44px;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-5 {
+  position: absolute;
+  top: 306px;
+  left: 518px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .button {
+  position: absolute;
+  width: 538px;
+  height: 339px;
+  top: 649px;
+  left: 306px;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-6 {
+  position: absolute;
+  top: 91px;
+  left: 552px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .button-2 {
+  position: absolute;
+  width: 102px;
+  height: 138px;
+  top: 1099px;
+  left: 525px;
+}
+
+.frame .microsoft-windows {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-7 {
+  position: absolute;
+  top: 114px;
+  left: 3px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .mrlam-button {
+  position: absolute;
+  top: 45px;
+  left: 189px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #0eb6ff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .home-button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: 40px;
+  left: 849px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .contact-button {
+  position: absolute;
+  top: 40px;
+  left: 1148px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .projects-button {
+  position: absolute;
+  top: 40px;
+  left: 980px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #00c1ff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-8 {
+  position: absolute;
+  top: 1428px;
+  left: 145px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 254px;
+  height: 153px;
+  top: 1518px;
+  left: 591px;
+}
+
+.frame .polygon {
+  position: absolute;
+  width: 254px;
+  height: 152px;
+  top: 0;
+  left: 0;
+}
+
+.frame .text-wrapper-9 {
+  position: absolute;
+  top: 32px;
+  left: 99px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-10 {
+  position: absolute;
+  top: 1684px;
+  left: 589px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
